@@ -47,6 +47,3 @@ mvn test
 ```sh
 mvn allure:serve
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, open an issue first.
