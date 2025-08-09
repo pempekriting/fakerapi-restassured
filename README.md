@@ -47,3 +47,7 @@ mvn test
 ```sh
 mvn allure:serve
 ```
+
+## Evidence Recording
+
+[Video](https://drive.google.com/drive/folders/1SWglgixa5DsJti6LuJCnJcoH0rfWEx0l?usp=sharing)
