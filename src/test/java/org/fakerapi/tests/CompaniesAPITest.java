@@ -23,6 +23,7 @@ public class CompaniesAPITest extends CompaniesAPI {
         res.then().assertThat().statusCode(200);
         List<?> data = res.jsonPath().getList("data");
         Assert.assertEquals(data.size(), quantity);
+        res.body().prettyPrint();
     }
 
     @Test
@@ -36,5 +37,6 @@ public class CompaniesAPITest extends CompaniesAPI {
         }
 
         res.then().assertThat().body(matchesJsonSchemaInClasspath("getAllCompaniesSchema.json"));
+        res.body().prettyPrint();
     }
 }

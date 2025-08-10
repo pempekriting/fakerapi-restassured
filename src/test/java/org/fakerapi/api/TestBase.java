@@ -20,6 +20,6 @@ public class TestBase {
         }
 
         baseURI = props.getProperty("baseURI");
-        reqSpec = given();
+        reqSpec = given().baseUri(baseURI);
     }
 }
